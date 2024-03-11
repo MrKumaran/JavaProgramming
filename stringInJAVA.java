@@ -20,6 +20,17 @@ class stringCompare{
         System.out.println(stringOne.equalsIgnoreCase(stringTwo));
     }
 }
+
+class stringManipulation {
+    stringManipulation(){
+        String word = "This is Example string";
+        System.out.println("String Manipulation ");
+        System.out.println("Original String : " + word);
+        System.out.println("to upper case : " + word.toUpperCase());
+        System.out.println("to lower case : " + word.toLowerCase());
+        System.out.println("replacing s with S : " + word.replace("s", "S"));
+    }
+}
 public class stringInJAVA {
     public static void main(String[] args) {
         String stringliteral = "This is String Literal"; // this stores data in string pool
@@ -29,5 +40,7 @@ public class stringInJAVA {
         System.out.println();
         stringCompare SC = new stringCompare();
         SC.compareStrings();
+        System.out.println();
+        stringManipulation SM = new stringManipulation();
     }
 }
