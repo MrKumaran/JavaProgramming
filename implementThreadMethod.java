@@ -1,5 +1,5 @@
-class implementingRunnable implements Runnable{
-    implementingRunnable(){
+class implementingRunnable1 implements Runnable{
+    implementingRunnable1(){
         Thread thread_One = new Thread(this, "Demo");
         System.out.println(thread_One);
         thread_One.start();
@@ -19,25 +19,9 @@ class implementingRunnable implements Runnable{
 }
 
 
-class extentingRunnable extends Thread{
-    public void run(){
-        try{
-            for (int i = 5; i > 0; i--) {
-                System.out.println(i);
-                Thread.sleep(500);
-            }
-        }
-        catch (InterruptedException e){
-            System.out.println(e);
-        }
-        System.out.println("Extents Child Thread");
-    }
-}
-public class threadingInJAVA {
+public class implementThreadMethod {
     public static void main(String[] args) {
         implementingRunnable1 IR = new implementingRunnable1();
-        extentingRunnable ER = new extentingRunnable();
-        ER.start();
         try{
             for (int i = 5; i > 0; i--) {
                 System.out.println(i);
