@@ -23,7 +23,6 @@ public class ExtendingThreadJAVA {
         e2.start();
         System.out.println(e1.getName());
         System.out.println(e2.getName());
-        e1.isAlive();
         System.out.println(e1.isAlive());
                 //final Boolean isAlive();
     }
