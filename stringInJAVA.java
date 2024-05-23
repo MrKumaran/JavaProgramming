@@ -1,6 +1,7 @@
 /*
-String is rather class in java than a datatype
-String in java is Immutable (Note : String in other Programming languages also immutable)
+String is rather a class in java than a datatype
+String in java is Immutable
+(Note : String in other Programming languages also immutable)
 */
 class stringCompare{
 
