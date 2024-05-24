@@ -1,0 +1,34 @@
+MIN_PRIORITY
+NORM_PRIORITY
+MAX_PRIORITY
+getPriority()
+setPriority(priority value)
+
+
+Compare and contrast throw and throws.
+Compare byte streams with character streams.
+Define multithreading.
+Difference between Byte and Character stream.
+Distinguish between sleep() and wait().
+Explain Exception hierarchy.
+List out the various thread states?
+List the methods available in InputStream class.
+List the methods available in InputStream class.
+What are the three standard streams?
+What is synchronization and why is it important?
+What is the difference between Checked and Unchecked Exception?
+What is the purpose of the finally clause of a try-catch-finally statement?
+What is the use of flush method?
+Write a java program for writing data to the file.
+Write a java program snippet to read from the console.
+---------------------
+
+Solve inconsistency problem while accessing shared resource
+
+Java programs on multithreading, exception, creating own exceptions
+
+Thread Priority
+
+Programs on unit 4
+
+stream chaining
